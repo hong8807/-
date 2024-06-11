@@ -13,13 +13,16 @@ canvas {
 
 #message {
     text-align: center;
-    padding: 20px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 10px;
     color: red;
     position: absolute;
-    top: 50%;
+    top: 10px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    width: 90%;
+    max-height: 30px;
+    overflow: hidden;
 }
 
 #controls {
